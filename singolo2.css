@@ -10,11 +10,11 @@
   padding-top: 70px;
   font-size: 30px;
   line-height: 18px;
-  color: #666d89;
-  font-family: "Lato";
+  font-family: "Lato", "Verdana", sans-serif;
   font-weight: 900;
   text-align: left;
   letter-spacing: -0.2px;
+  color: #666d89;
 }
 
 .first-descr {
@@ -23,10 +23,10 @@
   padding-top: 27px;
   font-size: 18px;
   line-height: 30px;
-  color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato", "Verdana", sans-serif;
   font-weight: 300;
   text-align: left;
+  color: #767e9e;
 }
 
 .nav {
@@ -41,13 +41,13 @@
   padding: 2px 6px 3px 7px;;
   font-size: 12px;
   line-height: 22px;
-  color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato", "Verdana", sans-serif;
   font-weight: 400;
-  border-radius: 5px;
-  border: 1px solid #666d89;
   text-decoration: none;
   letter-spacing: -0.1px;
+  color: #767e9e;
+  border-radius: 5px;
+  border: 1px solid #666d89;
 }
 
 .main-nav:hover {
@@ -70,10 +70,6 @@
   padding: 10px;
 }
 
-.item:hover {
-
-}
-
 .about {
   width: 1020px;
   height: 728px;
@@ -86,24 +82,24 @@
   padding-top: 68px;
   font-size: 30px;
   line-height: 18px;
-  color: #666d89;
-  font-family: "Lato";
+  font-family: "Lato", "Verdana", sans-serif;
   font-weight: 900;
   text-align: left;
   letter-spacing: -0.2px;
+  color: #666d89;
 }
 
 .second-descr {
-  padding-left: 40px;
-  padding-top: 27px;
   width: 940px;
   height: 57px;
+  padding-left: 40px;
+  padding-top: 27px;
   font-size: 18px;
   line-height: 30px;
-  color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato", "Verdana", sans-serif;
   font-weight: 300;
   text-align: left;
+  color: #767e9e;
 }
 
 .sec-line {
@@ -112,10 +108,10 @@
 
 .info {
   display: flex;
+  justify-content: space-between;
+  width: 940px;
   margin-left: 40px;
   margin-top: 48px;
-  width: 940px;
-  justify-content: space-between;
 }
 
 .contact {
@@ -127,11 +123,11 @@
   margin-top: 17px;
   font-size: 18px;
   line-height: 18px;
-  color: #666d89;
-  font-family: "Lato";
+  font-family: "Lato", "Verdana", sans-serif;
   font-weight: 900;
-  letter-spacing: -0.18px;
   text-align: left;
+  letter-spacing: -0.18px;
+  color: #666d89;
 }
 
 .personal-info {
@@ -139,11 +135,11 @@
   width: 300px;
   font-size: 12px;
   line-height: 21px;
-  color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato", "Verdana", sans-serif;
   font-weight: 400;
   text-align: justify;
   letter-spacing: -0.06px;
+  color: #767e9e;
 }
 
 .social {
