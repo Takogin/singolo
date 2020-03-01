@@ -36,7 +36,7 @@
   margin-top: 10px;
 }
 
-.main-nav {
+.nav-second {
   margin-right: 10px;
   padding: 2px 6px 3px 7px;;
   font-size: 12px;
@@ -50,7 +50,7 @@
   border: 1px solid #666d89;
 }
 
-.main-nav:hover {
+.nav-second:hover {
   color: #dedede;
   border: 1px solid #dedede;
 }
@@ -132,6 +132,7 @@
 
 .personal-info {
   margin-top: 10px;
+  margin-left: -1px;
   width: 300px;
   font-size: 12px;
   line-height: 21px;
