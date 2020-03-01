@@ -5,15 +5,16 @@
   border-bottom: 6px solid #323746;
 }
 
-.h1 {
+.portfolio {
   padding-left: 40px;
-  padding-top: 69px;
+  padding-top: 70px;
   font-size: 30px;
   line-height: 18px;
   color: #666d89;
   font-family: "Lato";
   font-weight: 900;
   text-align: left;
+  letter-spacing: -0.2px;
 }
 
 .first-descr {
@@ -31,15 +32,13 @@
 .nav {
   display: flex;
   justify-content: flex-start;
-  /* justify-content: space-between; */
   margin-left: 40px;
   margin-top: 10px;
-  width: 288px;
 }
 
 .main-nav {
-  margin-right: 7px;
-  padding: 2px 6px 4px 7px;;
+  margin-right: 10px;
+  padding: 2px 6px 3px 7px;;
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;
@@ -48,6 +47,12 @@
   border-radius: 5px;
   border: 1px solid #666d89;
   text-decoration: none;
+  letter-spacing: -0.1px;
+}
+
+.main-nav:hover {
+  color: #dedede;
+  border: 1px solid #dedede;
 }
 
 .gallery {
@@ -58,11 +63,15 @@
   width: 960px;
   height: 621px;
   margin-left: 30px;
-  margin-top: 10px;
+  margin-top: 9px;
 }
 
 .item {
   padding: 10px;
+}
+
+.item:hover {
+
 }
 
 .about {
@@ -81,6 +90,7 @@
   font-family: "Lato";
   font-weight: 900;
   text-align: left;
+  letter-spacing: -0.2px;
 }
 
 .second-descr {
@@ -96,19 +106,55 @@
   text-align: left;
 }
 
-.contact {
-  display: flex;
-
+.sec-line {
+  letter-spacing: 0.15px;
 }
 
-.photo {
+.info {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 48px;
+  width: 940px;
+  justify-content: space-between;
+}
 
+.contact {
+  display: flex;
+  flex-direction: column;
 }
 
 .h3 {
-
+  margin-top: 17px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  letter-spacing: -0.18px;
+  text-align: left;
 }
 
 .personal-info {
+  margin-top: 10px;
+  width: 300px;
+  font-size: 12px;
+  line-height: 21px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: -0.06px;
+}
 
+.social {
+  display: flex;
+  margin-top: 23px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.icon:hover {
+  opacity: 50%;
 }
