@@ -183,8 +183,8 @@ button {
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 154px;
-    padding-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  width: 154px;
+  padding-top: 2px;
 }
