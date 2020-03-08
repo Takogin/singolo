@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 1020px;
 }
