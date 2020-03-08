@@ -14,14 +14,31 @@
     <h2 class="form-name">Get a Quote</h2>
     <p class="form-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
     <div class="form-container">
-      <div class="form-inner-paste">
-        !!!!!!
-      </div>
+      <form class="form-inner-paste" action="#" method="post">
+        <fieldset class="form-post">
+          <input class="field" type="text" name="username" placeholder="Name (Required)" required><br>
+          <input class="field" type="email" name="email" placeholder="Email (Required)" required><br>
+          <input class="field" type="text" name="subject" placeholder="Subject"><br>
+          <textarea class="field txt-area" name="project-details" rows="8" cols="75" placeholder="Describe your project in detail..."></textarea>
+        </fieldset>
+        <button type="button" name="post">Submit</button>
+      </form>
       <div class="form-inner-info">
         <h3 class="contact-info">Contact Information</h3>
-        <p class="contact-info-description">Quisque hendrerit purus dapibus, ornare nibh vitae, viver-<br>ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at<br> aliquet turpis, et consequat felis.</p>
-        <div class="contact-number">
-          !!!!!
+        <p class="contact-info-description">Quisque hendrerit purus dapibus, ornare nibh vitae, viver-<br>ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+        <div class="contacts">
+          <div class="contact-location">
+            <img src="assets/images3/location.svg" alt="location" width="7" height="11">
+            <p>Elm St. 14/05 Lost City</p>
+          </div>
+          <div class="contact-phone">
+            <img src="assets/images3/contact-phone.svg" alt="phone" width="11" height="11">
+            <p><a class="contact-link" href="tel:+03528 331 86 35">03528 331 86 35</a></p>
+          </div>
+          <div class="contact-mail">
+            <img src="assets/images3/mail.svg" alt="mail" width="13" height="8">
+            <p><a class="contact-link" href="mail:info@singolo.com">info@singolo.com</a></p>
+          </div>
         </div>
       </div>
     </div>

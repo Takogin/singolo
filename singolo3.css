@@ -40,7 +40,64 @@
 .form-inner-paste {
   display: flex;
   flex-direction: column;
+  align-items: space-between;
   width: 620px;
+  margin-top: 46px;
+}
+
+.field {
+  width: 604px;
+  height: 38px;
+  padding-left: 15px !important;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  border-style: hidden;
+  background-color: #d6564f;
+  font-size: 12px !important;
+  line-height: 22px;
+  font-family: "Lato" !important;
+  font-weight: 400 !important;
+}
+
+.field::-webkit-input-placeholder {
+    color: #f48c8f;
+}
+.field:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.field::-moz-placeholder {
+    color: #f48c8f;
+}
+.field:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.field:invalid:focus {
+  border: 3px solid red !important;
+}
+
+
+.txt-area {
+  width: 604px;
+  height: 194px;
+  padding-left: 15px !important;
+  padding-top: 8px !important;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 470px;
+  border-radius: 5px;
+  border-style: hidden;
+  background-color: #d6564f;
+  font-size: 12px !important;
+  line-height: 22px;
+  color: #f48c8f;
+  font-family: "Lato" !important;
+  font-weight: 700 !important;
 }
 
 .form-inner-info {
@@ -48,7 +105,6 @@
   flex-direction: column;
   width: 320px;
   margin-top: 47px;
-
 }
 
 .contact-info {
@@ -64,18 +120,51 @@
 .contact-info-description {
   margin-top: 10px;
   width: 300px;
-  height: 175px;
+  height: 109px;
   font-size: 12px;
   line-height: 22px;
   color: #f0d8d9;
   font-family: "Lato";
   font-weight: 400;
   text-align: justify;
-  word-break: break-all;
+  letter-spacing: -0.03px;
 }
 
-.contact-number {
+.contacts {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
 
+.contact-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 139px;
+  margin-left: 3px;
+}
+
+.contact-phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 112px;
+  margin-left: 1px;
+}
+
+.contact-mail {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 115px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #f0d8d9;
 }
 
 .footer {
@@ -91,11 +180,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-}
-
-.copyright {
-
 }
 
 .social-links {
